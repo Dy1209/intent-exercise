@@ -37,9 +37,10 @@
                 />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/btn_Image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
+                android:onClick="handleChangeAvatar"
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
                 app:layout_constraintEnd_toEndOf="@+id/image_profile"
                 app:srcCompat="@drawable/edit_icon"
